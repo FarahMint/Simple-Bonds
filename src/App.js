@@ -1,24 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+ 
+
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
+import  BondsList from "./components/Bonds/BondsList"
+import  InvestorsList  from "./components/Investors/InvestorsList"
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        Investments
         </a>
       </header>
+
+      <Router>
+              <>
+                <nav>
+                <ul>
+                  <li><Link to={'/'} className="nav-link"> Bonds </Link></li>
+                  <li><Link to={'/investors'} className="nav-link">investors</Link></li>
+                </ul>
+                </nav>
+                <hr />
+             
+                <Switch>
+                  <Route exact path='/' component={BondsList} />
+                  <Route path='/investors' component={InvestorsList} />
+                </Switch>
+              </>
+            </Router>
     </div>
   );
 }

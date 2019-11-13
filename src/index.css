@@ -1,13 +1,295 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+:root {
+  --primaryColor: #4c03cc ;
+  --secondaryColor: #09d3ac;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainDarkText: #444;
+  --mainGrey: #ddd;
+  --darkGrey: #cfcfcf;
+  --mainBoxShadow: 0 1px 0 1px rgba(0,0,0,.04);
 }
+ul, li{
+  margin: 0;
+  padding:0;
+}
+
+li{
+list-style: none;
+}
+
+button, input{
+  border:none;
+  outline:none;
+  cursor:pointer; 
+}
+
+.App {
+  box-sizing: border-box;
+  background-color: var(--offWhite);
+}
+
+
+.App-header {
+  background-color:var(--primaryColor);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: var(--secondaryColor);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 2rem;
+  
+}
+
+ 
+ /* NAVBAR */
+ nav{
+   width:100%;
+   padding: 1rem 0 ;
+ }
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+ }
+
+/* BONDS CONTAINER SECTION */
+
+.bonds-container{
+
+  width:100%;
+  max-width:768px;
+  margin:0 auto;
+  padding: 2rem 0;
+
+}
+
+.bonds-container form{
+ 
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select#investors-dropdown{
+  margin-left: 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: var(--mainDarkText);
+    border: 1px solid var(--darkGrey);
+    box-shadow: var(--mainBoxShadow);
+    border-radius: .5em;
+    -moz-appearance: none;
+}
+
+.input-area{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.bonds-container label{
+ margin: .75rem;
+}
+.bonds-container form input[type="number"]{
+  position:relative;
+  padding: 0 .75rem;
+  font-size: 1.75rem;
+  border-bottom: 1px solid var( --mainGrey);
+}
+.bonds-container form input:focus{
+
+  border-bottom: 1px solid rgb(0, 117, 235);
+}
+
+ 
+.ccy-icon{
+  font-size: 1.75rem;
+}
+
+.bond-list ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.bond-list ul li{
+  background: var(--primaryColor);
+  border-radius:8px;
+  box-shadow: var( --mainBoxShadow);
+
+}
+
+.list h2{
+  color:var(--secondaryColor);
+}
+.list h2 + p{
+  color:var(--mainGrey);
+  text-transform: capitalize;
+}
+.list h2, h2 + p{
+  padding: .75rem 1rem;
+}
+
+.bond-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--mainWhite);
+  text-align: center;
+}
+
+.bond-content p{
+  padding: .75rem 0;
+  
+}
+
+
+.bond-content small:first-of-type, .bond-content small + p{
+  color: #695f5f;
+}
+
+.bond-content small + p{
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.bond-content small:last-of-type{
+  text-transform: capitalize;
+}
+
+.bond-content button,
+.investors-list button{
+  font-size: 1rem;
+  background-color: var(--secondaryColor);
+  color: var(--mainDarkText);
+  padding:  .25rem 1rem;
+  border-radius: 2px;
+  transition: all 0.5 ease-in-out
+}
+
+.bond-content button:hover, .btn-actif:hover,
+.investor-list .btn-actif:hover{
+  font-size: 1.25rem;
+}
+
+.bond-title{
+  margin-right: 20px;
+}
+
+
+/* single invertor portfolio */
+
+.investors-list{
+
+  width:100%;
+  max-width:768px;
+  margin:0 auto;
+ 
+
+}
+.investors-list ul li{
+  display:flex;
+ flex-direction: column;
+  justify-content:space-between;
+  padding-top: 15px;
+  margin: 1rem 0;
+
+  background:var(--primaryColor);
+  border-radius:8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0, .2);
+}
+.investors-list h2{
+  color: var( --mainGrey);
+  padding: 1rem;
+}
+.investors-list ul li div {
+  background: var( --mainGrey);
+  padding: 1rem;
+}
+.investors-list ul li div p {
+ line-height: 2rem;
+}
+
+.investors-list button{
+  align-self: flex-end;
+}
+
+
+
+button:disabled {
+ color: var( --darkGrey);
+ background-color: var( --offWhite );
+ cursor:not-allowed;
+}
+/*Logic used in 2 cases */
+/* btn dropdown show investment portfolio for each investor */
+/* btn remove investment from investor portfolio - status check */
+.hidden{
+  display: none;
+}
+.shown{
+  display:block;
+  border-bottom: 1px solid var(--offWhite);
+}
+
+ 
+
+.alert{
+  padding: .75rem 1.25rem;
+  text-transform: capitalize;
+}
+
+.alert-danger{
+  color: red;
+}
+.alert-success{
+  color: green;
+
+}
+ /* The Modal (background) */
+.modal{
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+}
+
+ 
+  
+
+ 
+
+
+
+
+ 
