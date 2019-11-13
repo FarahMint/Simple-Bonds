@@ -15,7 +15,7 @@ Web app created with:
 
 
   2.  **`Investors page - toggle action between view & hide investment`** 
-<img align="left" src="https://user-images.githubusercontent.com/18241226/68757980-d025de80-0604-11ea-84d9-9e726c272435.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
+ ![Screen Shot 2019-11-13 at 11 02 02 AM](https://user-images.githubusercontent.com/18241226/68757980-d025de80-0604-11ea-84d9-9e726c272435.png)
 
 
 
