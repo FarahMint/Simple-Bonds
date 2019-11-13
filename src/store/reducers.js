@@ -1,4 +1,12 @@
-import {  GET_BONDS , GET_INVESTORS ,GET_SINGLE_INVESTOR,GET_INVESTOR_PORTFOLIO, GET_AMOUNT_INVESTED, ADD_INVESTMENT, CANCEL_INVESTMENT} from "./actions";
+import {  
+  GET_BONDS , 
+  GET_INVESTORS ,
+  GET_SINGLE_INVESTOR,
+  GET_QUERY ,
+  GET_INVESTOR_PORTFOLIO, 
+  GET_AMOUNT_INVESTED, 
+  ADD_INVESTMENT, 
+  CANCEL_INVESTMENT} from "./actions";
 
 const initState={
   bondsList:[],
@@ -6,6 +14,7 @@ const initState={
   portfolio:[],
   amount: 0,
   investorSelected:"",
+  query:""
 }
 
 function investmentReducer(state = initState, action) {
@@ -28,6 +37,13 @@ function investmentReducer(state = initState, action) {
           ...state,
           investorSelected: action.payload
         }
+      case GET_QUERY :
+      
+        return{
+          ...state,
+          query: action.payload, 
+        }
+ 
       case GET_INVESTOR_PORTFOLIO:
         return{
           ...state,

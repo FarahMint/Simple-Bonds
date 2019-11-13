@@ -76,9 +76,11 @@ const  getData = async () => {
   useEffect(() => {
     if (!initialized) {
         getData();
-       }     
+       }  
   }, [initialized]);
 
+
+ 
 
    //notification alert 
    const handleAlert = ({status, text})=>{
@@ -94,6 +96,8 @@ const  getData = async () => {
           alert,
           postData,
           cancelInvestment,
+     
+      
    
    }}>
            {props.children}

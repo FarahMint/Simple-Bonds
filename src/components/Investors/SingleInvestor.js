@@ -24,8 +24,15 @@ const SingleInvestor=({investor}) => {
             {toggle ? ` view investment` : `hide investment`} 
             </button>
     }
+ 
+
+   
+   
 
     return (
+        <>
+      
+
         <li key={investor.id}>
        <h2>{investor.first_name} {investor.last_name}</h2> 
             {btnStatusdisplay(investor.id )}
@@ -48,6 +55,7 @@ const SingleInvestor=({investor}) => {
                     func={cancelInvestment}/> 
                 ))}       
         </li>
+        </>
     )
 }
 
