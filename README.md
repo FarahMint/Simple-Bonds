@@ -16,8 +16,8 @@ Web app created with:
   - Make an investment into a bond, as a specified investor (see --issue)
   - Browse all the known investors
   - View an investor's portfolio of investments
-  - Cancel a pending investment (they cannot cancel investments that are committed or already cancelled)
-  -Use simple bonds on their mobile device
+  - Cancel a pending investment 
+  - Use simple bonds on their mobile device
   - Lookup an investor using text-based search
 
   ## Screen Shot 
