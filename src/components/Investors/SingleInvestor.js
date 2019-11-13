@@ -13,7 +13,7 @@ const SingleInvestor=({investor}) => {
 
     const btnStatusdisplay =(id)=>{
 
-        let status =  portfolio.find(i => i.investor_id === id);
+        let status = portfolio && portfolio.find(i => i.investor_id === id);
 
         return status === undefined ? 
             <button disabled >no investment</button>

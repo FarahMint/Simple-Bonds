@@ -65,6 +65,22 @@ nav ul{
   flex: 1;
  }
 
+ .nav-link{
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 1rem;
+   transition: all .5s ease-in-out;
+ }
+ 
+ .nav-link:hover{
+  color: var(--secondaryColor);
+ 
+ }
+ .nav-link:focus{
+  background-color: var(--secondaryColor);
+  color: var(--mainWhite)
+ }
+
 /* BONDS CONTAINER SECTION */
 
 .bonds-container{
@@ -248,6 +264,10 @@ button:disabled {
 .shown{
   display:block;
   border-bottom: 1px solid var(--offWhite);
+  transition: all .5s ease-in-out;
+}
+.shown:hover{
+  padding: .75rem;
 }
 
  
