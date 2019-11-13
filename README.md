@@ -1,5 +1,5 @@
  # Simple Bonds
-A web app created with:
+Web app created with:
 - React.js
 - React Context API for the state management 
 - React-router 
@@ -7,12 +7,12 @@ A web app created with:
 - Data from Simple Bonds' REST API. 
 
   ## Screen Shot 
-  1.  **`tablet Bonds page`** 
+  1.  **`Bonds  && Investors page`** 
 <img align="left" src="https://user-images.githubusercontent.com/18241226/68752653-99979600-05fb-11ea-8b9f-3011d8ed8134.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/>
 <img align="left" src="https://user-images.githubusercontent.com/18241226/68752654-99979600-05fb-11ea-9222-9ba3ea374817.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
 
 
-
+  2.  **`Investors page - toggle action between view & hide investment`** 
 ![Screen Shot 2019-11-13 at 9 55 39 AM](https://user-images.githubusercontent.com/18241226/68752656-9a302c80-05fb-11ea-8414-d2b5b725332d.png)
 
 
@@ -21,7 +21,7 @@ A web app created with:
 
 Axios POST request fails with error status code 500: Internal Server error
 
-However using Postman it works properly and returns a response. I don't know where  the failure come from?  
+However using Postman it works properly and returns a response. I don't know where the failure come from?  
 
 ![Screen Shot 2019-11-13 at 10 30 57 AM](https://user-images.githubusercontent.com/18241226/68756454-0b72de00-0602-11ea-9f23-b2246762d77f.png)
 ![Screen Shot 2019-11-13 at 10 31 56 AM](https://user-images.githubusercontent.com/18241226/68756455-0b72de00-0602-11ea-8ecf-ac88383d7699.png)

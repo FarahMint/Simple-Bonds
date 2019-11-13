@@ -6,6 +6,8 @@ import {formula} from "../../formula";
 /**IMPORT CONTEXT */
 import { InvestorContext } from "../../store";
 
+/** For each single bond display maturity and quarterly options */
+
 const DisplayChild = ({
   id, 
   interest,

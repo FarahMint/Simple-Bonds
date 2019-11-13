@@ -11,14 +11,16 @@ const initState={
 function investmentReducer(state = initState, action) {
   switch (action.type) {
     case GET_BONDS:
-     
-      state.bondsList = JSON.parse(JSON.stringify(action.payload));
-      return state;
-      
-
+      return{
+        ...state,
+        bondsList: action.payload
+      }
+    
       case GET_INVESTORS:
-        state.investors  = JSON.parse(JSON.stringify(action.payload));
-        return state;
+        return{
+          ...state,
+          investors: action.payload
+        }
 
       case GET_SINGLE_INVESTOR:
        
@@ -27,8 +29,10 @@ function investmentReducer(state = initState, action) {
           investorSelected: action.payload
         }
       case GET_INVESTOR_PORTFOLIO:
-        state.portfolio  = action.payload;
-        return state;
+        return{
+          ...state,
+          portfolio: action.payload
+        }
       case GET_AMOUNT_INVESTED:
   
         return{
@@ -38,9 +42,7 @@ function investmentReducer(state = initState, action) {
 
         case ADD_INVESTMENT:
           return {...state};
-        case CANCEL_INVESTMENT:
-          
-           
+        case CANCEL_INVESTMENT:           
           return {...state};
         
  

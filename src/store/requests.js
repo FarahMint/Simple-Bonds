@@ -13,7 +13,7 @@ export const getInvestors = () =>
       method: 'POST',
       headers: { 
         'Content-Type': 'application/json',
-        "Accept": "application/json" 
+        'Accept': 'application/json' 
       },
       data,
       url,
