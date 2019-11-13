@@ -28,13 +28,12 @@ Web app created with:
 
 
 
-  2.  **`Investors page - toggle action between view & hide investment`** 
- ![Screen Shot 2019-11-13 at 11 02 02 AM](https://user-images.githubusercontent.com/18241226/68769073-a1ffc900-061b-11ea-9b3f-455cba1db5f3.png)
-
+  2.  **`toggle between view & hide portfolio`** 
+ <img align="left" src="https://user-images.githubusercontent.com/18241226/68769073-a1ffc900-061b-11ea-9b3f-455cba1db5f3.png" alt="toggle view" title="1tablet-bonds-page"/>
 
   3.  **`search investor`** 
- ![Screen Shot 2019-11-13 at 11 02 02 AM](https://user-images.githubusercontent.com/18241226/68769075-a1ffc900-061b-11ea-9486-29e69a1d94da.png)
-
+   <img align="left" src="https://user-images.githubusercontent.com/18241226/68769075-a1ffc900-061b-11ea-9486-29e69a1d94da.png" alt="search" title="search"/>
+ 
 
 
 ##  🧐 issue
