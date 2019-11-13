@@ -8,12 +8,14 @@ Web app created with:
 
   ## Screen Shot 
   1.  **`Bonds  && Investors page`** 
-<img align="left" src="https://user-images.githubusercontent.com/18241226/68752653-99979600-05fb-11ea-8b9f-3011d8ed8134.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/>
-<img align="left" src="https://user-images.githubusercontent.com/18241226/68752654-99979600-05fb-11ea-9222-9ba3ea374817.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
+<img align="left" src="https://user-images.githubusercontent.com/18241226/68757978-cf8d4800-0604-11ea-9f7d-b849b5d8ba1f.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/>
+<img align="left" src="https://user-images.githubusercontent.com/18241226/68757979-cf8d4800-0604-11ea-91fc-ed9d6700abae.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
+
+
 
 
   2.  **`Investors page - toggle action between view & hide investment`** 
-![Screen Shot 2019-11-13 at 9 55 39 AM](https://user-images.githubusercontent.com/18241226/68752656-9a302c80-05fb-11ea-8414-d2b5b725332d.png)
+<img align="left" src="https://user-images.githubusercontent.com/18241226/68757980-d025de80-0604-11ea-84d9-9e726c272435.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
 
 
 
