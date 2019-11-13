@@ -20,7 +20,7 @@ export const InvestorContext=  createContext();
   const postData = async (investorSelected,  data)=>{
 
     if (state.amount === undefined ||!investorSelected) {
-      handleAlert({ status:"danger", text: "missing info"});
+      handleAlert({ status:"danger", text: "please provide an amount and select your name"});
       return;
     }
 
@@ -83,7 +83,7 @@ const  getData = async () => {
    //notification alert 
    const handleAlert = ({status, text})=>{
     setAlert({show: true,  status, text});
-    setTimeout(()=> setAlert({show: false}), 5000)
+    setTimeout(()=> setAlert({show: false}), 3000)
   };
 
 

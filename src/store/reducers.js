@@ -37,12 +37,10 @@ function investmentReducer(state = initState, action) {
         }
 
         case ADD_INVESTMENT:
-          console.log(action.payload)
-          // state = JSON.parse(JSON.stringify(action.payload));
           return {...state};
         case CANCEL_INVESTMENT:
-          console.log(action.payload)
-          // state = JSON.parse(JSON.stringify(action.payload));
+          
+           
           return {...state};
         
  
