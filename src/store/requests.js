@@ -1,4 +1,4 @@
-const APIURL = "https://165.227.229.49:8000";
+const APIURL = "http://165.227.229.49:8000";
 const axios = require("axios");
 export const getBonds = () =>
   axios.get(`${APIURL}/bonds?api_key=uMaxxMRQaPYxYfD2yWMqeVDldWjEmajB`);
