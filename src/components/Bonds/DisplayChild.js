@@ -27,9 +27,9 @@ const DisplayChild = ({
     evt.preventDefault()
    
         let data = {
-            id,
-            investmentType, 
-            amount 
+          bond_id: id,
+          type:investmentType, 
+          amount: amount 
         }
         postData(investorSelected,  data);
   };
