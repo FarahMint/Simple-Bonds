@@ -24,7 +24,9 @@ Web app created with:
   ## Screen Shot 
   1.  **`Bonds  && Investors page`** 
 <img align="left" src="https://user-images.githubusercontent.com/18241226/68997719-5d855f00-08a1-11ea-8377-edbb563d00fa.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/>
-<img align="left" src="https://user-images.githubusercontent.com/18241226/68997721-5d855f00-08a1-11ea-965d-b7b068fc683a.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
+<img align="right" src="https://user-images.githubusercontent.com/18241226/68997721-5d855f00-08a1-11ea-965d-b7b068fc683a.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
+
+
 
 
 
@@ -32,8 +34,6 @@ Web app created with:
 
   2.  **`search investors`** 
  <img align="left" src="https://user-images.githubusercontent.com/18241226/68997722-5e1df580-08a1-11ea-9d96-05ee896d1230.png" alt="toggle view" title="1tablet-bonds-page"/>
-
-
 
   3.  **`single investor details-- with portfolio`** 
    <img align="left" src="https://user-images.githubusercontent.com/18241226/68997723-5e1df580-08a1-11ea-82de-40ff13a0882a.png" alt="search" title="search"/>
