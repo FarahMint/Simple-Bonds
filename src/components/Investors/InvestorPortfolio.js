@@ -11,8 +11,9 @@ const InvestorPortfolio = ({ id, name, amount, investor_id, type,interest,  stat
 
     return (
      
-        <div  className={toggle ? 'hidden' : 'shown'}>
-            <p>name: {name}</p>
+        
+          <div  className={toggle ? 'hidden' : 'shown'}>
+          <p>name: {name}</p>
             <p>amount: {amount}</p>
             <p>type:{type}</p>
            
@@ -24,7 +25,7 @@ const InvestorPortfolio = ({ id, name, amount, investor_id, type,interest,  stat
             onClick={()=>func(investor_id ,id)}
             > remove
             </button>  
-        </div>
+          </div>
     );
   };
 

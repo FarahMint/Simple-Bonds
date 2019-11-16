@@ -7,6 +7,7 @@ import  Header from "./components/Header/Header"
 import  Nav from "./components/Navbar/Nav"
 import  BondsList from "./components/Bonds/BondsList"
 import  InvestorsList  from "./components/Investors/InvestorsList"
+import  InvestorDetails  from "./components/Investors/InvestorDetails"
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
              
                 <Switch>
                   <Route exact path='/' component={BondsList} />
-                  <Route path='/investors' component={InvestorsList} />
+                  <Route exact path='/investors' component={InvestorsList} />
+                  <Route exact path='/investors/:id' component={InvestorDetails} />
                 </Switch>
               </>
             </Router>

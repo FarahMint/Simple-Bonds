@@ -22,20 +22,17 @@ Web app created with:
 
   ## Screen Shot 
   1.  **`Bonds  && Investors page`** 
-<img align="left" src="https://user-images.githubusercontent.com/18241226/68997719-5d855f00-08a1-11ea-8377-edbb563d00fa.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/>
-<img align="left" src="https://user-images.githubusercontent.com/18241226/68997721-5d855f00-08a1-11ea-965d-b7b068fc683a.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
+<img align="left" src="https://user-images.githubusercontent.com/18241226/68757978-cf8d4800-0604-11ea-9f7d-b849b5d8ba1f.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/>
+<img align="left" src="https://user-images.githubusercontent.com/18241226/68769072-a1673280-061b-11ea-96c2-f1060f93926e.png" alt="tablet-investors-page" title="1tablet-investors-page"/>
 
 
 
 
   2.  **`toggle between view & hide portfolio`** 
- <img align="left" src="https://user-images.githubusercontent.com/18241226/68997722-5e1df580-08a1-11ea-9d96-05ee896d1230.png" alt="toggle view" title="1tablet-bonds-page"/>
+ <img align="left" src="https://user-images.githubusercontent.com/18241226/68769073-a1ffc900-061b-11ea-9b3f-455cba1db5f3.png" alt="toggle view" title="1tablet-bonds-page"/>
 
   3.  **`search investor`** 
-   <img align="left" src="https://user-images.githubusercontent.com/18241226/68997723-5e1df580-08a1-11ea-82de-40ff13a0882a.png" alt="search" title="search"/>
-
-  4.  **`no investment`** 
-   <img align="left" src="https://user-images.githubusercontent.com/18241226/68997724-5e1df580-08a1-11ea-96c4-159bcfea0bc5.png" alt="search" title="no investment"/>
+   <img align="left" src="https://user-images.githubusercontent.com/18241226/68769075-a1ffc900-061b-11ea-9486-29e69a1d94da.png" alt="search" title="search"/>
  
 
 

@@ -38,10 +38,10 @@ const DisplayChild = ({
     return (
         <form onSubmit={handleSubmit} >
             <p>{(interest * 100).toFixed(2)}% <span>P.A</span> </p>
-            <small>{txt_interest}</small> 
-            <p>{investmentType }</p>
+            <p> <small>{txt_interest}</small> <strong>on {investmentType }</strong></p> 
+          
             <small>{info}</small>
-            <p> £{Math.round(expectedReturn)}</p>
+            <p className="expected-return"> £{Math.round(expectedReturn)}</p>
              <button 
              type="submit"> invest</button>    
         </form>

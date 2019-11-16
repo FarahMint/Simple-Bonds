@@ -15,7 +15,9 @@ export const InvestorContext=  createContext();
   const [initialized, setInitialized] = useState(false);
   const [alert, setAlert] = useState({show:false});
 
-  const [state, dispatch] = useReducer(investmentReducer, {});
+  const localState = JSON.parse(localStorage.getItem("state"));
+
+  const [state, dispatch] = useReducer(investmentReducer, localState || {});
 
   const postData = async (investorSelected,  data)=>{
 
@@ -71,6 +73,8 @@ const  getData = async () => {
   }
 };
 
+
+ 
  
   
   useEffect(() => {
@@ -79,6 +83,10 @@ const  getData = async () => {
        }  
   }, [initialized]);
 
+
+  useEffect(() => {
+    localStorage.setItem("state", JSON.stringify(state));
+}, [state]);
 
  
 

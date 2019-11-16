@@ -2,16 +2,20 @@ import {
   GET_BONDS , 
   GET_INVESTORS ,
   GET_SINGLE_INVESTOR,
+  GET_SINGLE_INVESTOR_DETAILS,
   GET_QUERY ,
   GET_INVESTOR_PORTFOLIO, 
   GET_AMOUNT_INVESTED, 
   ADD_INVESTMENT, 
   CANCEL_INVESTMENT} from "./actions";
 
+  
 const initState={
   bondsList:[],
   investors: [],
   portfolio:[],
+  singleInvestor:{},
+  investorPortfolio:  [],
   amount: 0,
   investorSelected:"",
   query:""
@@ -36,6 +40,21 @@ function investmentReducer(state = initState, action) {
         return{
           ...state,
           investorSelected: action.payload
+        }
+      case GET_SINGLE_INVESTOR_DETAILS:
+       
+        let temporyInv = [...state.investors];
+        const investor =temporyInv.find(inv => inv.id === action.payload);
+        let temporyP = [...state.portfolio];
+        const invertorP =temporyP.filter(inv => inv.investor_id === action.payload);
+        console.log(investor);
+        console.log(invertorP);
+        
+        return{
+          ...state,
+          singleInvestor:investor,
+          investorPortfolio: invertorP
+          
         }
       case GET_QUERY :
       

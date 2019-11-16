@@ -6,7 +6,10 @@ const Nav =() => {
     <>
         <nav>
             <ul>
-                <li><NavLink strict to={'/'} className="nav-link">bonds</NavLink></li>
+                <li><NavLink 
+                strict to={'/'}
+                 className="nav-link"
+                 activeClassName="selected">bonds</NavLink></li>
                 <li><NavLink strict to={'/investors'}  className="nav-link">investors</NavLink></li>
             </ul>
         </nav>
