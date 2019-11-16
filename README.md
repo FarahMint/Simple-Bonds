@@ -13,7 +13,8 @@ Web app created with:
 
   - Browse all the available bonds
   - Calculate the expected return on a bond when investing a specified amount
-  - Make an investment into a bond, as a specified investor (see --issue)
+  - Make an investment into a bond, as a specified investor 
+  (issue fixed comment: make sure that the variable are similar to the POST request obj sent)
   - Browse all the known investors
   - View an investor's portfolio of investments
   - Cancel a pending investment 
@@ -37,19 +38,6 @@ Web app created with:
   4.  **`no investment`** 
    <img align="left" src="https://user-images.githubusercontent.com/18241226/68997724-5e1df580-08a1-11ea-96c4-159bcfea0bc5.png" alt="search" title="no investment"/>
  
-
-
-##  🧐 issue
-Axios POST request fails with error status code 500: Internal Server error
-However using Postman it works properly and returns a response. I don't know where the failure come from?  
-
-![Screen Shot 2019-11-13 at 10 30 57 AM](https://user-images.githubusercontent.com/18241226/68756454-0b72de00-0602-11ea-9f23-b2246762d77f.png)
-![Screen Shot 2019-11-13 at 10 31 56 AM](https://user-images.githubusercontent.com/18241226/68756455-0b72de00-0602-11ea-8ecf-ac88383d7699.png)
-![Screen Shot 2019-11-13 at 10 32 19 AM](https://user-images.githubusercontent.com/18241226/68756456-0c0b7480-0602-11ea-94b3-c7231d6dcf12.png)
-![Screen Shot 2019-11-13 at 10 32 51 AM](https://user-images.githubusercontent.com/18241226/68756459-0c0b7480-0602-11ea-891a-c66071241deb.png)
-
- 
-
 
 ### `npm start`
 
