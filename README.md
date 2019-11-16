@@ -29,13 +29,16 @@ Web app created with:
 
 
 
-  2.  **`toggle between view & hide portfolio`** 
+
+  2.  **`search investors`** 
  <img align="left" src="https://user-images.githubusercontent.com/18241226/68997722-5e1df580-08a1-11ea-9d96-05ee896d1230.png" alt="toggle view" title="1tablet-bonds-page"/>
 
-  3.  **`search investor`** 
+
+
+  3.  **`single investor details-- with portfolio`** 
    <img align="left" src="https://user-images.githubusercontent.com/18241226/68997723-5e1df580-08a1-11ea-82de-40ff13a0882a.png" alt="search" title="search"/>
 
-  4.  **`no investment`** 
+  4.  **`single investor details -- with no investment`** 
    <img align="left" src="https://user-images.githubusercontent.com/18241226/68997724-5e1df580-08a1-11ea-96c4-159bcfea0bc5.png" alt="search" title="no investment"/>
  
 
