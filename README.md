@@ -23,27 +23,27 @@ A user of 'Simple Bonds' can do the following:
 - [x] Use simple bonds on their mobile device
 - [x] Lookup an investor using text-based search
 
-  
+## `npm start`
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screens Shot
 
-|   **`Bonds page`**          |**`Investors page`**                        
-|----------------|-------------------------------|-----------------------------|
-<img  align="left" src="https://user-images.githubusercontent.com/18241226/68997719-5d855f00-08a1-11ea-8377-edbb563d00fa.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/>          |<img  align="right" src="https://user-images.githubusercontent.com/18241226/68997721-5d855f00-08a1-11ea-965d-b7b068fc683a.png" alt="tablet-investors-page" title="1tablet-investors-page"/>      |
-
-|    **`search investors - no result`**            |**`search investors - no result`**                         
-|----------------|-------------------------------|-----------------------------|
-<img  align="left" src="https://user-images.githubusercontent.com/18241226/68997722-5e1df580-08a1-11ea-9d96-05ee896d1230.png" alt="toggle view" title="1tablet-bonds-page"/>           |<img  align="left" src="https://user-images.githubusercontent.com/18241226/68998088-9aebeb80-08a5-11ea-8028-9a4a49e98dd4.png" alt="toggle view" title="1tablet-bonds-page"/>       |
+ 1. **`BOND LIST DISPLAY`**
+<img src="https://user-images.githubusercontent.com/18241226/68997719-5d855f00-08a1-11ea-8377-edbb563d00fa.png" alt="tablet-bonds-page" title="1tablet-bonds-page"/> 
 
 
+ 2. **`BOND LIST DISPLAY`**
+<img  align="left" src="https://user-images.githubusercontent.com/18241226/68997721-5d855f00-08a1-11ea-965d-b7b068fc683a.png" alt="tablet-investors-page" title="1tablet-investors-page"/>     
 
-|    **`single investor details -- with no investment`**            |**`single investor details-- with portfolio`**                          
-|----------------|-------------------------------|-----------------------------|
-<img  align="left" src="https://user-images.githubusercontent.com/18241226/68997723-5e1df580-08a1-11ea-82de-40ff13a0882a.png" alt="search" title="search"/>            |<img  align="left" src="https://user-images.githubusercontent.com/18241226/68997724-5e1df580-08a1-11ea-96c4-159bcfea0bc5.png" alt="search" title="no investment"/>          |
-                
-<br  />  
+ 3. **`SEARCH DISPLAY`**
+<img src="https://user-images.githubusercontent.com/18241226/68997722-5e1df580-08a1-11ea-9d96-05ee896d1230.png" alt="toggle view" title="1tablet-bonds-page"/>        
 
-### `npm start`
-Runs the app in the development mode.<br  />
+ 4. **`SEARCH NO RESULT`**   
+<img src="https://user-images.githubusercontent.com/18241226/68998088-9aebeb80-08a5-11ea-8028-9a4a49e98dd4.png" alt="toggle view" title="1tablet-bonds-page"/>     
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 5. **`SINGLE INVESTOR DETAIL DISPLAY - WITH PORTFOLIO`**
+<img src="https://user-images.githubusercontent.com/18241226/68997723-5e1df580-08a1-11ea-82de-40ff13a0882a.png" alt="search" title="search"/> 
+
+ 6. **`SINGLE INVESTOR DETAIL DISPLAY - NO PORTFOLIO`**
+<img src="https://user-images.githubusercontent.com/18241226/68997724-5e1df580-08a1-11ea-96c4-159bcfea0bc5.png" alt="search" title="no investment"/>
